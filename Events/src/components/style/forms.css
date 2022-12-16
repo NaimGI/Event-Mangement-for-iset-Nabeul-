@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Potta+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Marko+One&display=swap");
+.forms{
+    height: 100%;
+}
+.forms h2{
+    
+    text-align: center;
+    font-size: 55px;
+color: whitesmoke;
+margin: 30px;
+margin-top: 40px;
+font-family: "Dancing Script", cursive;
+}
+
+.forms Button{
+margin: auto;
+background-color: rgb(17, 160, 48);
+
+width: 200px;
+font-family: "Potta One", cursive;
+font-size: 16px;
+height: 50px;
+color: black;
+}
+.forms Button:hover{
+background-color: rgb(13, 139, 40);
+color: white;
+}
+.forms .input{
+    margin: auto;
+width: 55%;
+font-family: "Marko One", serif;
+background:none ;
+color: black;
+padding: 5px;
+display: grid;
+}.forms p{
+    font-size: 1rem;
+    color: red;
+    font-weight: bold;
+}

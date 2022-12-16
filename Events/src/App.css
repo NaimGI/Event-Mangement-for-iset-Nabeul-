@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Denk+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tapestry&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Marko+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Potta+One&display=swap");
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ebdcf5c0;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(102, 33, 148);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+  background-position:center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height:100%;
+  background:linear-gradient(0deg, rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.589)), url("images/bg1.jpg");
+  background-size:cover;
+
+}
